@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact From</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			text align:center;
+			background-image:url(l.jpg);
+			background-size: cover;
+			background-position: center;
+			font-family: sans-serif;
+		}
+		.contact{
+			color:#fff;
+			text-align: center;
+		}
+		#contact-from{
+			position: absolute;
+			top: 10px;
+		}
+
+	</style>
+</head>
+<body>
+<div class="contact">
+	<h1>HELLO!</h1>
+	<h2>Welcome to our page</h2>
+</div>
+<div class="contact-form">
+	<form id="contact-form" method="post" action="">
+		<input type="text" name="name" class="from-control" placeholder="Your Name" required="">
+		<br>
+		<input type="email" name="email" class="from-control" placeholder="Your Email" required="">
+		<br>
+		<textarea name="message" class="from-control" placeholder="Message" row="4" required=""></textarea>
+        <input type="submit" class="from-control submit" value="SEND Message">
+	</form>
+</div>
+</body>
+</html>

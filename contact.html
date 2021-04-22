@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact From</title>
+  <style type="text/css">
+    /*navigation*/
+    body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+
+}
+
+/*.topnav{
+  width: 100%;
+    height: 100vh;
+    background-image: url("l.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}*/
+.t{
+  position: absolute;
+  top:0px;
+  left:500px;
+  font-style: cursive;
+}
+
+    body{
+      margin: 0;
+      padding: 0;
+      text align:center;
+      background-image:url(l.jpg);
+      background-size: cover;
+      background-position: center;
+      font-family: sans-serif;
+    }
+    .contact{
+      color:#fff;
+      text-align: center;
+      position: absolute;
+      right: 10px;
+      top: 20px;
+      left: 90px;
+    }
+    #contact-from{
+      position: absolute;
+      top: 10px;
+    }
+    .y{
+      position:absolute;
+      top: 150px;
+      right: 0px;
+      left: 600px;
+      bottom: 10px;
+
+
+
+
+    }
+    .e{position: absolute;
+      top: 100px;
+
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="topnav">
+  <div class="t">
+  <a class="active" href="./index.html">Home</a>
+  <a href="./products.html">Menu</a>
+  <a href="./contact.html">Contact</a>
+  <a href="./about.html">About</a>
+  </div>
+</div>
+
+<div class="contact">
+  <h1>HELLO!</h1>
+  <h2>Welcome to our page</h2>
+</div>
+<div class="contact-form">
+  <div class="y">
+  <form id="contact-form" method="post" action="">
+
+    <input type="text" name="name" class="from-control" placeholder="Your Name" required="">
+    <br>
+    <input type="email" name="email" class="from-control" placeholder="Your Email" required="">
+    <br>
+    <textarea name="message" class="from-control" placeholder="Message" row="4" required=""></textarea>
+    <div class="e">
+        <input type="submit" class="from-control submit" value="SEND Message">
+      </div>
+  </form>
+</div>
+</div>
+</body>
+</html>
